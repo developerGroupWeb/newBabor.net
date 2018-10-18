@@ -1,0 +1,300 @@
+body{
+	font-family: 'Open Sans' Helvetica, Arial, 'sans-serif';
+}
+
+@media (min-width: 576px) {
+		.all-content{
+			background-image: url(../images/photo.jpg);
+		}
+
+	}
+
+.mobile-bg{
+	background: #C04848;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar-brand img{
+	width: 200px;
+	height: 40px;
+	margin-left: 90px;
+}
+
+@media (max-width: 767.99px) {
+	.navbar-brand img{
+		margin-left: 0px;
+	}
+
+	.footerContent a{
+		font-size: 11px;
+		padding: 5px;
+	}
+}
+
+
+.homepage .firtFace{
+	padding-top: 120px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 30px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background: #fff;
+}
+
+.homepage .firtFace-btn1 .btn{
+	padding: 8px 50px 10px 50px;
+	font-size: 20px;
+	border: 1px solid #b3b3b3;
+	border-radius: 10px;
+	color: #fff;
+	background: #bc4e9c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.homepage .firtFace-btn2 .btn{
+	padding: 8px 60px 10px 60px;
+	font-size: 20px;
+	border: 1px solid #b3b3b3;
+	border-radius: 10px;
+	color: #333;
+	background: #fff;
+}
+
+.homepage .secondFace{
+	padding-right: 50px;
+	padding-left: 40px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: #eee;
+}
+
+.homepage .secondFace-btn1 .btn{
+	padding: 7px 110px 7px 110px;
+	font-size: 20px;
+	border: 1px solid #b3b3b3;
+	border-radius: 10px;
+	color: #333;
+	background: #fff;
+}
+
+.homepage .secondFace-btn2 .btn{
+	padding: 7px 111px 7px 111px;
+	font-size: 20px;
+	border: 1px solid #b3b3b3;
+	border-radius: 10px;
+	color: #333;
+	background: #fff;
+}
+
+.homepage .secondFace-btn2 .btn:hover,
+.homepage .secondFace-btn1 .btn:hover,
+.homepage .firtFace-btn2 .btn:hover
+{
+	color: #f80759;
+	border: 1px solid #f80759;
+}
+
+.homepage .midleFace{
+	top: 250px;
+	position: absolute;
+	background: #fff;
+	border-radius: 100px;
+	font-weight: bold;
+	padding: 8px;
+	left: 455px;
+	z-index: 1000;
+}
+
+.btn-mob1 .btn{
+	padding: 7px 80px 7px 80px;
+	font-size: 16px;
+	border: 1px solid #b3b3b3;
+	border-radius: 10px;
+	color: #333;
+	background: #fff;
+}
+
+.btn-mob2 .btn{
+	padding: 7px 82px 7px 82px;
+	font-size: 16px;
+	border: 1px solid #b3b3b3;
+	border-radius: 10px;
+	color: #333;
+	background: #fff;
+}
+
+.btn-mob3 .btn{
+	padding: 7px 10px 7px 10px;
+	color: #fff;
+	border-radius: 10px;
+	background: #00c6ff;
+}
+
+.footerContent{
+	display: inline-flex;
+}
+
+.footerContent a{
+	padding: 20px;
+	color: rgb(0,0,0,0.8);
+}
+
+.footerbox a{
+	color: rgb(0,0,0,0.8);
+}
+
+.footerContent a:hover{
+	text-decoration: none;
+	color: #f80759;
+	
+}
+
+/*-----------------------------Singin Singup css---------------------------*/
+
+.singin-content, .singup-content{
+	padding-top: 100px;
+}
+
+.singin-content .box2{
+	margin-top: 40px;
+}
+
+.singin-content input, .singup-content input, .singupPage-home input{
+	border-radius: 10px;
+	padding: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.singup-content select, .singupPage-home select{
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 12px;
+}
+
+.singin-content input:hover,
+.singup-content input:hover,
+.singup-content select:hover,
+.singupPage-home select:hover,
+.singupPage-home input:hover,
+.go-backHome:hover{
+	border: 1px solid #f80759;
+}
+
+.singin-btn-validate .btn{
+	color: #fff;
+	background: #bc4e9c;
+	background: -webkit-linear-gradient(to left, #f80759, #bc4e9c); 
+	background: linear-gradient(to left, #f80759, #bc4e9c);
+}
+
+.singin-btn1 .btn{
+	border-radius: 10px;
+	padding: 7px 25px 7px 25px;
+	font-size: 18px;
+}
+
+.singin-btn2 .btn{
+	border-radius: 10px;
+	padding: 7px 35px 7px 35px;
+	font-size: 18px;
+}
+
+
+/*------------------------Encounter css---------------------------------*/
+.encounter .fa-x{
+	font-size: 20px;
+	border-radius: 100px;
+	padding: 13px;
+	border: 1px solid #b6b6b6;
+}
+
+.encounter .fa-2x{
+	border-radius: 100px;
+	padding: 15px 18px 15px 18px;
+	border: 1px solid #b6b6b6;
+}
+
+/**---------------------------------------------------------------------*/
+@media (max-width: 575.98px) {
+	.all-content{
+		background-image: url(../images/);
+	}
+
+	.homepage_mob a:hover{
+		text-decoration: none;
+	}
+	.nav-link .fa{
+		font-size: 20px;
+	}
+
+	.homepage_mob img{
+		width: 100px;
+		height: 90px;
+	}
+
+	.homepage_mob .footer a:hover{
+		text-decoration: none;
+		color: #333;
+	}
+	
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+	.nav-link .fa{
+		font-size: 25px;
+		margin-right: 20px;
+	}
+
+	.homepage .firtFace{
+		padding-top: 80px;
+		padding-bottom: 80px;
+		border-bottom-left-radius: 12px;
+		border-bottom-right-radius: 12px;
+		border-top-left-radius: 0px;
+		background: #eee;
+	}
+
+	.homepage .secondFace{
+		padding-top: 80px;
+		padding-bottom: 0px;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 12px;
+		border-bottom-right-radius: 0px;
+		background: #fff;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.nav-link .fa{
+		font-size: 30px;
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.homepage .firtFace{
+	padding-left: 30px;
+	padding-right: 20px;
+}
+	.homepage .secondFace{
+		padding-right: 30px;
+		padding-right: 30px;
+	}
+
+	.homepage .midleFace{
+	top: 250px;
+	position: absolute;
+	background: #fff;
+	border-radius: 100px;
+	font-weight: bold;
+	padding: 7px;
+	left: 380px;
+	z-index: 1000;
+}
+}
