@@ -75,7 +75,7 @@
             },
             function () {
                 $('#babor ul > li').slideUp(600).fadeOut(600);
-                
+
                 $(this).stop().animate({
                         position: 'relative',
                         left: '-264px',
